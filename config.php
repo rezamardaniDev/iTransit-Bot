@@ -7,9 +7,9 @@ define('URL', $url);
 define("API_KEY", $token);
 
 const DATABASE_HOSTNAME = 'localhost'; # تغییر ندید
-const DATABASE_USERNAME = 'csefasau_root'; # نام کاربری دیتابیس
-const DATABASE_PASSWORD = 'mardani80'; # پسورد کاربری دیتابیبس
-const DATABASE_NAME = 'csefasau_db'; # نام دیتابیس
+const DATABASE_USERNAME = ''; # نام کاربری دیتابیس
+const DATABASE_PASSWORD = ''; # پسورد کاربری دیتابیبس
+const DATABASE_NAME = ''; # نام دیتابیس
 
 $db = new mysqli(
     hostname: DATABASE_HOSTNAME,
