@@ -28,7 +28,7 @@ function bot(string $method, array $params)
 
 ########## variable ##########
 if (isset($update->message)) {
-    $message = $update->$message;
+    $message = $update->message;
     $chat_id = $update->message->from->id;
     $username = $update->message->chat->username;
     $first_name = $update->message->chat->first_name;
